@@ -1,14 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example Document</title>
+    <title>3.4-dars</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
-    this is scss template
+    <header class="container header">
+        <img src="./img/logo.png" alt="" class="header__logo">
+        <!-- header__toggle--active -->
+        <div class="header__toggle ">
+            <span></span>
+        </div>
+        <ul class="header__nav">
+            <li class="header__nav__item">
+                <a href="" class="header__nav__item__link">HOME</a>
+            </li>
+            <li class="header__nav__item">
+                <a href="" class="header__nav__item__link1">PORTFOLIO</a>
+            </li>
+            <li class="header__nav__item">
+                <a href="" class="header__nav__item__link">CONTACT ME</a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="container">
+        <section class="manage">
+            <div class="manage__block">
+                <h2 class="manage__block__title">Manage</h2>
+                <p class="manage__block__desc">This project required me to build a fully responsive landing page to the designs
+                    provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required
+                    interactivity, such as the testimonial slider.</p>
+                <button class="btn btn__button">VIEW PROJECT</button>
+            </div>
+        </section>
+
+        <section class="bookmark">
+            <div class="bookmark__block">
+                <h2 class="bookmark__block__title">Bookmark</h2>
+                <p class="bookmark__block__desc">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.</p>
+                <button class="btn btn__button">VIEW PROJECT</button>
+            </div>
+        </section>
+
+        <section class="insure">
+            <div class="insure__block">
+                <h2 class="insure__block__title">Insure</h2>
+                <p class="insure__block__desc">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.</p>
+                <button class="btn btn__button">VIEW PROJECT</button>
+            </div>
+        </section>
+
+        <section class="fylo">
+            <div class="fylo__block">
+                <h2 class="fylo__block__title">Fylo</h2>
+                <p class="fylo__block__desc">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.</p>
+                <button class="btn btn__button">VIEW PROJECT</button>
+            </div>
+
+            <div class="fylo__block2">
+                <h1 class="fylo__block2__title">Interested in doing a project together?</h1>
+                <span class="fylo__line"></span>
+                <button class="btn btn__button">CONTACT ME</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container block">
+            <a href="#" class="block__logo">
+                <img src="../img/footlogo.png" alt="logotip image" class="block__logo__img">
+            </a>
+            <ul class="block__nav">
+                <li class="block__nav__item">
+                    <a href="" class="block__nav__item__link">HOME</a>
+                </li>
+                <li class="block__nav__item">
+                    <a href="" class="block__nav__item__link">PORTFOLIO</a>
+                </li>
+                <li class="block__nav__item">
+                    <a href="" class="block__nav__item__link">CONTACT ME</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
+
 </html>

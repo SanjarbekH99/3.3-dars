@@ -1,3 +1,44 @@
 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    &__logo{
+        img{
+            display: flex;
+        }
+    }
+    &__nav{
+        display: flex;
+        list-style: none;
+        &__item{
+            margin: 0 15px;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            &__link1{
+                color:#5FB4A2;
+                text-decoration: none;
+                &:hover{
+                    color:rgb(199, 194, 194);
+                }
+                &:active{
+                    color:rgb(66, 58, 58);
+                }
+            }
+            &__link{
+                font-family: Public Sans;
+                color: #33323D;
+                text-decoration: none;
+                &:hover{
+                    color:rgb(199, 194, 194);
+                }
+                &:active{
+                    color:rgb(66, 58, 58);
+                }
+            }
+        }
+    }
 }
 
